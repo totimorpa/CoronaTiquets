@@ -7,11 +7,11 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 
 ## Taula de continguts
 - [Idea](#Idea)
---[Repte](#Repte)
---[Sol·lució](#Sol·lució)
+  - [Repte](#Repte)
+  - [Sol·lució](#Sol·lució)
 - [Producte](#Producte)
--[Reptes futurs](#Reptes_futurs)
--[Equip](#Equip)
+- [Reptes futurs](#Reptes_futurs)
+- [Equip](#Equip)
 
 
 ## Idea
@@ -25,7 +25,7 @@ Aquesta problemàtica és especialment greu en el cas dels botiguers de proximit
 
 ### Sol·lució
 
-Al nostre equip vam tenir molt clar des del proncipi del **Hackovid** que el nostre objectiu era **facilitar l'apertura de comerços** locals dusant el periode de confinament in el posterior període de recuperació de la economia, sense que això impliqui un aument del risc de contagi a la població.
+Al nostre equip vam tenir molt clar des del proncipi del **Hackovid** que el nostre objectiu era **facilitar l'apertura de comerços** locals durant el periode de confinament in el posterior període de recuperació de la economia, sense que això impliqui un aument del risc de contagi a la població.
 
 **CoronaTiquets** pretén fer això mateix. S'ha creat una aplicació que permetrà als usuaris **cercar la botiga** de la que volen adquirir un producte o servei, i **demanar un tiquet** per a anar-hi presencialment, en un horari en que **la botiga estarà buida** a excepció del personal i el client que hagi demanat hora.
 
