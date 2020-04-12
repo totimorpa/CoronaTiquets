@@ -9,6 +9,7 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 - [Idea](#Idea)
   - [Repte](#Repte)
   - [Sol·lució](#Sol·lució)
+- [Vídeos de demostració](#videos)
 - [Producte](#Producte)
 - [Tecnologia](Tecnologia)
 - [Reptes futurs](#Reptes_futurs)
@@ -33,6 +34,13 @@ Al nostre equip vam tenir molt clar des del proncipi del **Hackovid** que el nos
 Els botiguers crearàn un perfil per la seva botiga i podràn acceptar els tiquets de l'usuari a l'hora que podràn consultar en el seu calendari quins seran els propers clients en arribar.
 
 Els botiguers hauràn de promoure que **només es pot accedir al seu local en cas que s'hagi fet ús de l'aplicació**. Pensem que aquesta aplicació pot ser una **bona sol·lució** per permetre obrir botigues locals durant aques periode sense afavorir un aument de contagis.
+
+## Vídeos de demostració
+
+En aquest apartat dirigir-te als videos explicatius sobre l'aplicació:
+|  Vídeo per a usuaris | Vídeo per a comerços |
+|-----------------| -----|
+| ![Videousuari](https://www.youtube.com/watch?v=rAhCFlJ26Xo) | ![Videocomerç](https://www.youtube.com/watch?v=__ZEO-eBy7w) |
 
 ## Producte
 
