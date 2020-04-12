@@ -52,7 +52,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial*
 
 | Menú lateral de **navegació** | Pàgina amb el llistat de botigues properes  |
 | -----------------| -----|
-| ![menu lateral](/resources/screenshots/menu_lateral.jpeg) | ![Botigues](/resources/screenshots/cercadorbotigues.jpeg) |
+| ![menu lateral](/resources/screenshots/menu%20lateral.jpeg) | ![Botigues](/resources/screenshots/cercadorbotigues.jpeg) |
 
 |  Mapa amb les **botigues** properes |**Tiquets** acceptats pels botiguers |
 | -----------------| -----|
@@ -66,7 +66,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial*
 
 | El botiguer podrà acceptar o rebutjar els **tickets** entrants  | L'app permet integrar el servei de **calendari** de Google  |
 | -----------------| -----|
-| ![acceptartiquets](/resources/screenshots/acceptartiquets.jpeg) | ![calendari](/resources/screenshots/calendari botiga.jpeg) |
+| ![acceptartiquets](/resources/screenshots/acceptartiquets.jpeg) | ![calendari](/resources/screenshots/calendari%20botiga.jpeg) |
 
 ## Tecnologia
 
