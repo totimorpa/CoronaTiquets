@@ -6,7 +6,7 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 
 
 ## Taula de continguts
-- [La idea](#La idea)
+- [La idea](#La-idea)
 - [Contributing](#contributing)
 - [App Preview](#app-preview)
 - [Deploying](#deploying)
