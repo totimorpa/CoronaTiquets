@@ -7,8 +7,8 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 
 ## Taula de continguts
 - [Idea](#Idea)
-  -[Repte](#Repte)
-  -[Sol·lució](#Sol·lució)
+--[Repte](#Repte)
+--[Sol·lució](#Sol·lució)
 - [Producte](#Producte)
 -[Reptes futurs](#Reptes_futurs)
 -[Equip](#Equip)
@@ -40,8 +40,8 @@ En aquesta secció es mostren unes captures de pantalla sobre el funcionament de
 
 #### [Tutorial](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/tutorial/tutorial.html)
 
-La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en el que s'explicarà l'objectiu i l'ús d el'aplicació.
-| Material Design  | iOS  |
+La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial** en el que s'explicarà l'objectiu i l'ús d el'aplicació.
+|   |   |
 |-----------------| -----|
 | ![Tutorial1](/resources/screenshots/tutorial1.jpeg) | ![Tutorial2](/resources/screenshots/tutorial2.jpeg) |
 
