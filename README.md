@@ -41,7 +41,7 @@ En aquesta secció es mostren unes captures de pantalla sobre el funcionament de
 #### [Tutorial](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/tutorial/tutorial.html)
 
 La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en el que s'explicarà l'objectiu i l'ús d el'aplicació.
-
+| -----------------| -----|
 | ![Tutorial1](/resources/screenshots/tutorial1.jpeg) | ![Tutorial2](/resources/screenshots/tutorial2.jpeg) |
 
 
