@@ -56,17 +56,17 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial*
 
 |  Mapa amb les **botigues** properes |**Tiquets** acceptats pels botiguers |
 | -----------------| -----|
-| ![Mapa](/resources/screenshots/mapa.jpg) | ![Tiquets](/resources/screenshots/tiquetsacceptats.jpg |
+| ![Mapa](/resources/screenshots/mapa.jpeg) | ![Tiquets](/resources/screenshots/tiquetsacceptats.jpeg) |
 
 #### [Navegació del botiguer]
 
 | **Registre** de botiga  |  Informació sobre la botiga  |
 | -----------------| -----|
-| ![registre](/resources/screenshots/registre.jpg) | ![paginabotiga](/resources/screenshots/paginabotiga.jpg) |
+| ![registre](/resources/screenshots/registre.jpeg) | ![paginabotiga](/resources/screenshots/paginabotiga.jpeg) |
 
 | El botiguer podrà acceptar o rebutjar els **tickets** entrants  | L'app permet integrar el servei de **calendari** de Google  |
 | -----------------| -----|
-| ![acceptartiquets](/resources/screenshots/android-about.png) | ![calendari](/resources/screenshots/calendari botiga.jpeg) |
+| ![acceptartiquets](/resources/screenshots/acceptartiquets.jpeg) | ![calendari](/resources/screenshots/calendari botiga.jpeg) |
 
 ## Tecnologia
 
