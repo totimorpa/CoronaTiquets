@@ -37,19 +37,8 @@ Els botiguers hauràn de promoure que **només es pot accedir al seu local en ca
 
 En aquesta secció es mostren unes captures de pantalla sobre el funcionament de l'aplicació.
 
-####Menu
 
-
-## Reptes futurs
-
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) :tada::+1:
-
-
-## App Preview
-
-### [Tutorial](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/tutorial/tutorial.html)
+#### [Tutorial](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/tutorial/tutorial.html)
 
 La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en el que s'explicarà l'objectiu i l'ús d el'aplicació.
 
@@ -61,7 +50,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Tutorial2](/resources/screenshots/tutorial1.jpeg) | ![Tutorial2](/resources/screenshots/tutorial2.jpeg) |
+| ![Tutorial2](/resources/screenshots/ios-speakers.png) | ![Tutorial2](/resources/screenshots/tutorial2.jpeg) |
 
 ### [Speakers Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/speaker-list/speaker-list.html)
 
