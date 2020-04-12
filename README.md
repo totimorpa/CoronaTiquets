@@ -52,7 +52,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial*
 
 | Menú lateral de **navegació** | Pàgina amb el llistat de botigues properes  |
 | -----------------| -----|
-| ![menu lateral](/resources/screenshots/menu lateral.jpeg) | ![Botigues](/resources/screenshots/cercadorbotigues.jpeg) |
+| ![menu lateral](/resources/screenshots/menu_lateral.jpeg) | ![Botigues](/resources/screenshots/cercadorbotigues.jpeg) |
 
 |  Mapa amb les **botigues** properes |**Tiquets** acceptats pels botiguers |
 | -----------------| -----|
