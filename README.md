@@ -25,17 +25,19 @@ Aquesta problemàtica és especialment greu en el cas dels botiguers de proximit
 
 ### Sol·lució
 
-Al nostre equip vam tenir molt clar des del proncipi del Hackovid que el nostre objectiu era facilitar la apertura de comerços locals dusant el periode de confinament in el posterior període de recuperació de la economia, sense que això impliqui un aument del risc de contagi a la població.
+Al nostre equip vam tenir molt clar des del proncipi del **Hackovid** que el nostre objectiu era **facilitar l'apertura de comerços** locals dusant el periode de confinament in el posterior període de recuperació de la economia, sense que això impliqui un aument del risc de contagi a la població.
 
-CoronaTiquets pretén fer això mateix. S'ha creat una aplicació que permetrà als usuaris cercar la botiga de la que volen adquirir un producte o servei, i demanar un tiquet per a anar-hi presencialment, en un horari en que la botiga estarà buida a excepció del personal i el client que hagi demanat hora.
+**CoronaTiquets** pretén fer això mateix. S'ha creat una aplicació que permetrà als usuaris **cercar la botiga** de la que volen adquirir un producte o servei, i **demanar un tiquet** per a anar-hi presencialment, en un horari en que **la botiga estarà buida** a excepció del personal i el client que hagi demanat hora.
 
 Els botiguers crearàn un perfil per la seva botiga i podràn acceptar els tiquets de l'usuari a l'hora que podràn consultar en el seu calendari quins seran els propers clients en arribar.
 
-Els botiguers hauràn de promoure que només ses pot accedir al seu local en cas que s'hagi fet ús de l'aplicació. Pensem que aquesta aplicació pot ser una bona sol·lució per permetre obrir botigues locals durant aques periode sense afavorir un aument de contagis.
+Els botiguers hauràn de promoure que **només es pot accedir al seu local en cas que s'hagi fet ús de l'aplicació**. Pensem que aquesta aplicació pot ser una **bona sol·lució** per permetre obrir botigues locals durant aques periode sense afavorir un aument de contagis.
 
 ## Producte
 
 En aquesta secció es mostren unes captures de pantalla sobre el funcionament de l'aplicació.
+
+####Menu
 
 
 ## Reptes futurs
@@ -47,18 +49,19 @@ See [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/ma
 
 ## App Preview
 
-### [Menu](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/menu/menu.html)
+### [Tutorial](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/tutorial/tutorial.html)
 
-| Material Design  | iOS  |
-| -----------------| -----|
-| ![Android Menu](/resources/screenshots/android-menu.png) | ![iOS Menu](/resources/screenshots/ios-menu.png) |
+La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en el que s'explicarà l'objectiu i l'ús d el'aplicació.
+
+| ![Tutorial1](/resources/screenshots/tutorial1.jpeg) | ![Tutorial2](/resources/screenshots/tutorial2.jpeg) |
+
 
 
 ### [Schedule Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/schedule/schedule.html)
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Android Schedule](/resources/screenshots/android-schedule.png) | ![iOS Schedule](/resources/screenshots/ios-schedule.png) |
+| ![Tutorial2](/resources/screenshots/tutorial1.jpeg) | ![Tutorial2](/resources/screenshots/tutorial2.jpeg) |
 
 ### [Speakers Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/speaker-list/speaker-list.html)
 
