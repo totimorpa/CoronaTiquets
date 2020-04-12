@@ -1,12 +1,12 @@
-# Ionic Angular Conference Application
+# CoronaTiquets
 
-This application is purely a kitchen-sink demo of the Ionic Framework and Angular.
+Aquesta aplicació ha estat creada pel grup **041-UPCoders_A** per a la Hackathó organitzada per decidim: **Hackovid**.
 
-**There is not an actual Ionic Conference at this time.** This project is just to show off Ionic components in a real-world application. Please go through the steps in [CONTRIBUTING](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) before submitting an issue.
+Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerços a poder mantenir la seva activitat en un estat d'emergència sanitària com el que estem vivin actualment a tot el món.
 
 
-## Table of Contents
-- [Getting Started](#getting-started)
+## Taula de continguts
+- [La idea](#La idea)
 - [Contributing](#contributing)
 - [App Preview](#app-preview)
 - [Deploying](#deploying)
@@ -15,7 +15,7 @@ This application is purely a kitchen-sink demo of the Ionic Framework and Angula
   - [iOS](#ios)
 
 
-## Getting Started
+## La idea
 
 * [Download the installer](https://nodejs.org/) for Node LTS.
 * Install the ionic CLI globally: `npm install -g ionic`
