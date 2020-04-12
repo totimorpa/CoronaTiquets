@@ -55,7 +55,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en
 
 ### [Speakers Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/speaker-list/speaker-list.html)
 
-| Material Design  |   |
+
 | -----------------| -----|
 | ![Android Speakers](/resources/screenshots/android-speakers.png) | ![iOS Speakers](/resources/screenshots/ios-speakers.png) |
 
