@@ -39,7 +39,7 @@ Els botiguers hauràn de promoure que **només es pot accedir al seu local en ca
 En aquesta secció es mostren unes captures de pantalla sobre el funcionament de l'aplicació.
 
 
-#### [Tutorial]
+### Tutorial
 
 La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial** en el que s'explicarà l'objectiu i l'ús de l'aplicació.
 |   |   |
@@ -48,7 +48,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial*
 
 
 
-#### [Navegació de l'usuari]
+### Navegació de l'usuari
 
 | Menú lateral de **navegació** | Pàgina amb el llistat de botigues properes  |
 | -----------------| -----|
@@ -58,7 +58,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial*
 | -----------------| -----|
 | ![Mapa](/resources/screenshots/mapa.jpeg) | ![Tiquets](/resources/screenshots/tiquetsacceptats.jpeg) |
 
-#### [Navegació del botiguer]
+### Navegació del botiguer
 
 | **Registre** de botiga  |  Informació sobre la botiga  |
 | -----------------| -----|
