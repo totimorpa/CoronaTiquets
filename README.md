@@ -6,25 +6,39 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 
 
 ## Taula de continguts
-- [La idea](#La-idea)
-- [Contributing](#contributing)
-- [App Preview](#app-preview)
-- [Deploying](#deploying)
-  - [Progressive Web App](#progressive-web-app)
-  - [Android](#android)
-  - [iOS](#ios)
+- [Idea](#Idea)
+  -[Repte](#Repte)
+  -[Sol·lució](#Sol·lució)
+- [Producte](#Producte)
+-[Reptes futurs](#Reptes_futurs)
+-[Equip](#Equip)
 
 
-## La idea
+## Idea
 
-* [Download the installer](https://nodejs.org/) for Node LTS.
-* Install the ionic CLI globally: `npm install -g ionic`
-* Clone this repository: `git clone https://github.com/ionic-team/ionic-conference-app.git`.
-* Run `npm install` from the project root.
-* Run `ionic serve` in a terminal from the project root.
-* Profit. :tada:
+### Repte
+En aquesta situació en la que ens trobem han aparegut problemes a la societat que no hi eren abans.
 
-_Note: See [How to Prevent Permissions Errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions) if you are running into issues when trying to install packages globally._
+Un d'aquests problemes és la necessitat de tancament de botigues que ofereixin productes i serveis no esssencials, fet que perjudica els botiguers de tot el món.
+
+Aquesta problemàtica és especialment greu en el cas dels botiguers de proximitat, que ja comptaven amb dificultats per la competència de les grans superfícies de distribució i comercialització.
+
+### Sol·lució
+
+Al nostre equip vam tenir molt clar des del proncipi del Hackovid que el nostre objectiu era facilitar la apertura de comerços locals dusant el periode de confinament in el posterior període de recuperació de la economia, sense que això impliqui un aument del risc de contagi a la població.
+
+CoronaTiquets pretén fer això mateix. S'ha creat una aplicació que permetrà als usuaris cercar la botiga de la que volen adquirir un producte o servei, i demanar un tiquet per a anar-hi presencialment, en un horari en que la botiga estarà buida a excepció del personal i el client que hagi demanat hora.
+
+Els botiguers crearàn un perfil per la seva botiga i podràn acceptar els tiquets de l'usuari a l'hora que podràn consultar en el seu calendari quins seran els propers clients en arribar.
+
+Els botiguers hauràn de promoure que només ses pot accedir al seu local en cas que s'hagi fet ús de l'aplicació. Pensem que aquesta aplicació pot ser una bona sol·lució per permetre obrir botigues locals durant aques periode sense afavorir un aument de contagis.
+
+## Producte
+
+En aquesta secció es mostren unes captures de pantalla sobre el funcionament de l'aplicació.
+
+
+## Reptes futurs
 
 ## Contributing
 
