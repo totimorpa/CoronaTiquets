@@ -1,0 +1,42 @@
+<ion-header translucent="true">
+  <ion-toolbar color = "primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Tiquets</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <ion-list #scheduleList>
+    <ion-item-group *ngFor="let group of groups">
+
+      <ion-item *ngFor="let session of group.sessions">
+        <ion-icon name="pricetag-outline"></ion-icon>
+
+        <ion-item routerLink="/app/tabs/schedule/session/{{session.id}}">
+          <ion-label>
+
+            <h3>{{session.name}}</h3>
+            <p>
+              {{session.data}}
+            </p>
+            <p>
+              {{session.timeStart}} &mdash; {{session.timeEnd}}: {{session.location}}
+            </p>
+          </ion-label>
+        </ion-item>
+        <ion-button slot=end>
+        <ion-icon name='calendar' ></ion-icon>
+        </ion-button> 
+ 
+      </ion-item>
+    </ion-item-group>
+  </ion-list>
+
+  <ion-list-header [hidden]="shownSessions > 0">
+    No tens cap tiquet
+  </ion-list-header>
+
+
+</ion-content>

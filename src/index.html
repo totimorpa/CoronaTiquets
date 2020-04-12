@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CoronaTiquets</title>
+
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <meta name="theme-color" content="#387ef5">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <base href="/">
+
+  <link rel="icon" type="image/x-icon" href="assets/img/appicon.png">
+
+  <link rel="apple-touch-icon" href="assets/img/appicon.png">
+
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+  <app-root></app-root>
+
+  <!-- Replace the API key with your own, see:
+    https://developers.google.com/maps/documentation/javascript/get-api-key -->
+  <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCOWn20Dnpvt6PjzjhhZDvnEW7n1YPKhw"></script>
+
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCfGi0JYv2sAx7z7bM-kG-2YByDrWZPXZA",
+    authDomain: "hack-covid-10736.firebaseapp.com",
+    databaseURL: "https://hack-covid-10736.firebaseio.com",
+    projectId: "hack-covid-10736",
+    storageBucket: "hack-covid-10736.appspot.com",
+    messagingSenderId: "1024047967172",
+    appId: "1:1024047967172:web:36bd0b6a3d27cc1a4a1291",
+    measurementId: "G-1CCX4VHQ45"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>

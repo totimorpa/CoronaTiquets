@@ -1,0 +1,64 @@
+
+<ion-content>
+  <div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card >
+          <ion-card-header>
+            <ion-card-title>Registrar Comerç</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <!-- <form #myform ="ngForm" (ngSubmit)="submitForm(myform.value)"> -->
+              <form method="POST" action="insert.php">
+              <ion-list lines="full" class="ion-no-margin ion-no-padding">
+                <ion-item>
+                  <ion-label position="stacked">Nom comerç</ion-label>
+                  <ion-input required ngModel type="text" name="nomcomerc"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label position="stacked">Mail</ion-label>
+                  <ion-input required ngModel type="mail" name="mail"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label position="stacked">Telefon</ion-label>
+                  <ion-input required ngModel type="phone" name="telèfon"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label position="stacked">Tags (separats per coma)</ion-label>
+                  <ion-input required ngModel type="text" name="tags"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label position="stacked">Link imatge</ion-label>
+                  <ion-input required ngModel type="url" name="img"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label position="stacked">Serveis que ofereixes</ion-label>
+                  <ion-select placeholder="Selecciona serveis" ngModel name="serveis" multiple>
+                    <ion-select-option value="t">Tikets</ion-select-option>
+                    <ion-select-option value="e">Entrega a domicili</ion-select-option>
+                    <ion-select-option value="o">Comanda online</ion-select-option>
+                  </ion-select>
+                </ion-item>
+                <ion-item>
+                <ion-label position="stacked">Adreça</ion-label>
+                <ion-input placeholder="Carrer i numero" ngModel required type="text" name="adreca"></ion-input>
+                <ion-input placeholder="Ciutat" ngModel required type="text" name="ciutat"></ion-input>
+                <ion-input placeholder="Codi Postal" ngModel required type="text" name="CP"></ion-input>
+                </ion-item>
+                <ion-item>
+                <ion-label position="stacked">Informació adicional</ion-label>
+                <ion-textarea required type="text" ngModel name="info"></ion-textarea>
+                </ion-item>
+                </ion-list>
+                <div class="ion-padding">
+                <ion-button  (click) = "onSignup()" expand="block" type="submit" class="ion-no-margin" value="submit">Crear</ion-button>
+                </div>
+            </form>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  </div>
+</ion-content>

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color ="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/app/tabs/speakers"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{speaker?.name}}</ion-title>
+    <ion-buttons *ngIf="speaker" slot="end">
+      <ion-button (click)="openContact(speaker)">
+        <ion-icon slot="icon-only" ios="call-outline" md="call-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img [src]="speaker?.profilePic" [alt]="speaker?.name">
+  <div class="ion-padding speaker-detail">
+    <p>{{speaker?.about}}</p>
+
+    <hr>
+    <ion-list>
+    <p>Escull l'hora del teu tiquet i la teva petició:</p>
+    <ion-item>
+      <ion-select placeholder="Hora">
+        <ion-select-option *ngFor = "let hores of speaker?.horesDisponibles"> {{hores}} </ion-select-option>
+
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder = "Petició" type="text"required></ion-input>
+    </ion-item>
+    <ion-button type = "submit">Enviar</ion-button>
+    </ion-list>
+  </div>
+</ion-content>

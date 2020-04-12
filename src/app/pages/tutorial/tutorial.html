@@ -1,0 +1,48 @@
+
+
+
+<ion-content fullscreen="true">
+  <ion-toolbar>
+  <ion-button  slot='end' (click)="startApp()" [hidden]="!showSkip">Saltar</ion-button>
+  <ion-button  style="--box-shadow:none;" disabled=true color='white' slot='start'>Saltar</ion-button>
+  </ion-toolbar>
+  
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager="false">
+    <ion-slide>
+      <img src="assets/img/appicon.png" class="slide-image" />
+      <h2 class="slide-title">
+        Benvingut o benvinguda a
+        <b>CoronaTiquets</b>
+      </h2>
+      <p>
+        <b>CoronaTiquets</b> es una app desenvolupada per intentar salvar els petits comerços durant el període de confinament i de recuperació causat pel covid19.
+      </p>
+
+      <br>
+      <p style="color:#65c8d0">Llisca per a continuar <br><ion-icon size=large color=primary name="arrow-forward-circle-outline"></ion-icon></p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image" />
+      <h2 class="slide-title">Què fem?</h2>
+      <p>
+      Amb <b>CoronaTiquets</b> podràs reduir el risc de contacte amb altres individus quan vagis a fer les teves activitats, sense que això impedeixi el funcionament dels petits comerços.
+      </p>        </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image" />
+      <h2 class="slide-title">Com funciona?</h2>
+      <p>
+        Els comerciants registren la seva botiga i els usuaris poden agafar tiquets per anar-hi. <br> En la franja horària escollida, la botiga estarà preparada per a atendre't sol.
+      </p></ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />
+      <h2 class="slide-title">Preparat per salvar els petits comerços?</h2>
+      <ion-button (click)="startApp()">
+        Continuar
+        <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

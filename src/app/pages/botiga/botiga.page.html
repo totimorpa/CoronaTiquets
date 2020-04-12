@@ -1,0 +1,79 @@
+<div *ngFor="let speaker of speakers">
+  <div *ngIf='merceria(speaker.name)'>
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>{{speaker.name}}</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </div>
+</div>
+
+<ion-content fullscreen="true">
+  <div *ngFor="let speaker of speakers">
+    <div *ngIf='merceria(speaker.name)'>
+
+      <img class="foto" [src]="speaker.profilePic" [alt]="speaker.name + ' profile picture'">
+      <ion-list>
+        <ion-item lines='none'>
+          <h2>{{speaker.name}}</h2>
+          <ion-button mode='ios' fill='clear' slot='end'>
+            <ion-icon name="create-outline"></ion-icon>Editar
+          </ion-button>
+        </ion-item>
+        <ion-item>
+          <p>{{speaker.about}}</p>
+          <ion-button mode='ios' fill='clear' slot='end'>
+            <ion-icon name="create-outline"></ion-icon>Editar
+          </ion-button>
+        </ion-item>
+        <ion-item lines=none>
+          <p><b>Ubicació</b> </p>
+          <ion-button mode='ios' fill='clear' slot='end'>
+            <ion-icon name="create-outline"></ion-icon>Editar
+          </ion-button>
+        </ion-item>
+        <ion-item style="font-size: small">{{speaker.carrer}}<br>{{speaker.cp}}<br>{{speaker.location}}</ion-item>
+        <ion-item lines='none'>
+          <p><b>Horari d'apertura</b></p>
+          <ion-button mode='ios' fill='clear' slot='end'>
+            <ion-icon name="create-outline"></ion-icon>Editar
+          </ion-button>
+
+        </ion-item>
+        <ion-item class=petit lines=none>
+          <ion-label>Hora d'apertura</ion-label>
+          <ion-datetime display-format="h:mm A" picker-format="h:mm A" value="1990-02-19T07:00Z"></ion-datetime>
+        </ion-item>
+        <ion-item class=petit>
+          <ion-label>Hora de tancament</ion-label>
+          <ion-datetime display-format="h:mm A" picker-format="h:mm A" value="1990-02-19T18:00Z"></ion-datetime>
+        </ion-item>
+
+        <ion-item lines=none>
+          <ion-label><b>Serveis que ofereixo</b></ion-label>
+          <ion-button mode='ios' fill='clear' slot='end'>
+            <ion-icon name="create-outline"></ion-icon>Guardar canvis
+          </ion-button>
+        </ion-item>
+
+        <ion-item class=petit lines=none>
+          <ion-label>Tickets</ion-label>
+          <ion-checkbox slot=start [checked]="speaker.serveis.includes('t')"></ion-checkbox>
+        </ion-item>
+        <ion-item class=petit lines=none>
+          <ion-label>Entrega a domicili</ion-label>
+          <ion-checkbox slot=start [checked]="speaker.serveis.includes('e')"></ion-checkbox>
+        </ion-item>
+        <ion-item class=petit lines=none>
+          <ion-label>Comanda on-line</ion-label>
+          <ion-checkbox slot=start [checked]="speaker.serveis.includes('o')"></ion-checkbox>
+        </ion-item>
+
+
+      </ion-list>
+    </div>
+  </div>
+</ion-content>

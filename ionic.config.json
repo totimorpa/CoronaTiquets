@@ -1,0 +1,8 @@
+{
+  "name": "CoronaTiquets",
+  "type": "angular",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  }
+}

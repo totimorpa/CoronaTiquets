@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color = "primary">
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="defaultHref"></ion-back-button>
+    </ion-buttons>
+    <ion-title *ngIf="session">Tiquet per {{session.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="session" class="ion-padding">
+    <h1>{{session.name}}</h1>
+    <p>{{session.description}}</p>
+    <ion-text color="medium">
+      Tens hora de les {{session.timeStart}} a les {{session.timeEnd}}
+      <br /> {{session.location}}
+    </ion-text>
+  </div>
+
+  <ion-list>
+    <ion-item (click)="sessionClick('Eliminar tiquet')" button>
+      <ion-icon name = "trash"></ion-icon>
+      <ion-label color="primary">Eliminar tiquet</ion-label>
+    </ion-item>
+
+  </ion-list>
+</ion-content>
