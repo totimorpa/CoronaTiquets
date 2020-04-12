@@ -70,9 +70,9 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un **tutorial*
 
 ## Tecnologia
 
-La aplicació ha estat desenvolupada utilitzant el framework **Ionic** amb **Angular**. Els llenguatges utilitzats han estat **HTML**, **TypeScript** i **json**.
+La aplicació ha estat desenvolupada utilitzant el framework **Ionic** amb **Angular**. Els llenguatges utilitzats han estat **HTML**, **TypeScript** i **SCSS**.
 
-Per al backend, s'ha intentat fet ús d'una base de dades MySQL, MongoDB i Firebase. Finalment s'ha optat per a presentar l'aplicació amb una base de dades interna en llenguatge **json**.
+Per al backend, s'ha intentat fet ús d'una base de dades MySQL, MongoDB i Firebase. Finalment s'ha optat per a presentar l'aplicació amb una base de dades interna **json**.
 
 
 ## Reptes Futurs
