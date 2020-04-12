@@ -41,7 +41,8 @@ En aquesta secció es mostren unes captures de pantalla sobre el funcionament de
 #### [Tutorial](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/tutorial/tutorial.html)
 
 La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en el que s'explicarà l'objectiu i l'ús d el'aplicació.
-| -----------------| -----|
+| Material Design  | iOS  |
+|-----------------| -----|
 | ![Tutorial1](/resources/screenshots/tutorial1.jpeg) | ![Tutorial2](/resources/screenshots/tutorial2.jpeg) |
 
 
@@ -54,7 +55,7 @@ La primera vegada que s'inicia l'aplicació l'usuari podrà veure un tutorial en
 
 ### [Speakers Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/speaker-list/speaker-list.html)
 
-| Material Design  | iOS  |
+| Material Design  |   |
 | -----------------| -----|
 | ![Android Speakers](/resources/screenshots/android-speakers.png) | ![iOS Speakers](/resources/screenshots/ios-speakers.png) |
 
