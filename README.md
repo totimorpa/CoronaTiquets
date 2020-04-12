@@ -40,7 +40,7 @@ Els botiguers hauràn de promoure que **només es pot accedir al seu local en ca
 En aquest apartat dirigir-te als videos explicatius sobre l'aplicació:
 |  Vídeo per a usuaris | Vídeo per a comerços |
 |-----------------| -----|
-| ![Videousuari](https://www.youtube.com/watch?v=rAhCFlJ26Xo) | ![Videocomerç](https://www.youtube.com/watch?v=__ZEO-eBy7w) |
+| [Videousuari](https://www.youtube.com/watch?v=rAhCFlJ26Xo) | [Videocomerç](https://www.youtube.com/watch?v=__ZEO-eBy7w) |
 
 ## Producte
 
