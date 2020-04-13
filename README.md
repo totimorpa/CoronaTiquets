@@ -9,7 +9,7 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 - [Idea](#Idea)
   - [Repte](#Repte)
   - [Sol·lució](#Sol·lució)
-- [Vídeos de demostració](#Vídeos_de_demostració)
+- [Vídeos de demostració](#Vídeos de demostració)
 - [Producte](#Producte)
 - [Tecnologia](Tecnologia)
 - [Reptes futurs](#Reptes_futurs)
