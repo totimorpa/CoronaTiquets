@@ -2,7 +2,7 @@
 
 Aquesta aplicació ha estat creada pel grup **041-UPCoders_A** per a la Hackathó organitzada per decidim: **Hackovid**.
 
-Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerços a poder mantenir la seva activitat en un estat d'emergència sanitària com el que estem vivin actualment a tot el món.
+Hem volgut desenvolupar un projecte que ajudi als comerciants de petits comerços a poder mantenir la seva activitat en un estat d'emergència sanitària com el que estem vivin actualment a tot el món.
 
 
 ## Taula de continguts
