@@ -13,7 +13,7 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 - [Producte](#Producte)
 - [Tecnologia](Tecnologia)
 - [Reptes futurs](#Reptes_futurs)
-- [Equhhhip](#Equip)
+- [Equip](#Equip)
 
 
 ## Idea
