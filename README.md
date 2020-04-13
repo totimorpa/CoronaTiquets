@@ -9,10 +9,10 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 - [Idea](#Idea)
   - [Repte](#Repte)
   - [Solució](#Solució)
-- [Vídeos de demostració](#Vídeos de demostració)
+- [Vídeos de demostració](#Videos)
 - [Producte](#Producte)
 - [Tecnologia](#Tecnologia)
-- [Reptes futurs](#Reptes_Futurs)
+- [Reptes futurs](#Reptes%20Futurs)
 - [Equip](#Equip)
 
 
@@ -35,7 +35,7 @@ Els botiguers crearàn un perfil per la seva botiga i podràn acceptar els tique
 
 Els botiguers hauràn de promoure que **només es pot accedir al seu local en cas que s'hagi fet ús de l'aplicació**. Pensem que aquesta aplicació pot ser una **bona sol·lució** per permetre obrir botigues locals durant aques periode sense afavorir un aument de contagis.
 
-## Vídeos de demostració
+## Videos
 
 En aquest apartat dirigir-te als videos explicatius sobre l'aplicació:
 |  Vídeo per a usuaris | Vídeo per a comerços |
@@ -83,7 +83,7 @@ La aplicació ha estat desenvolupada utilitzant el framework **Ionic** amb **Ang
 Per al backend, s'ha intentat fet ús d'una base de dades MySQL, MongoDB i Firebase. Finalment s'ha optat per a presentar l'aplicació amb una base de dades interna **json**.
 
 
-## Reptes_Futurs
+## Reptes Futurs
 
 El principal problema que ens hem trobat durant el desenvolupament de l'aplicació ha estat la communicació de la mateixa amb bases de dades.
 
