@@ -12,7 +12,7 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 - [Vídeos de demostració](#Videos)
 - [Producte](#Producte)
 - [Tecnologia](#Tecnologia)
-- [Reptes futurs](#Reptes)
+- [Reptes futurs](#Reptes_Futurs)
 - [Equip](#Equip)
 
 
@@ -83,7 +83,7 @@ La aplicació ha estat desenvolupada utilitzant el framework **Ionic** amb **Ang
 Per al backend, s'ha intentat fet ús d'una base de dades MySQL, MongoDB i Firebase. Finalment s'ha optat per a presentar l'aplicació amb una base de dades interna **json**.
 
 
-## Reptes
+## Reptes_Futurs
 
 El principal problema que ens hem trobat durant el desenvolupament de l'aplicació ha estat la communicació de la mateixa amb bases de dades.
 
