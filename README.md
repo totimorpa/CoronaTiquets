@@ -91,6 +91,6 @@ El primer repte que afrontarem després del Hackovid serà o bé aprendre commun
 
 Un cop desenvolupat el back-end ens enfocarem en marketing per a fer arribar l'aplicació a organismes públique que puguin fer-la accessible a tota la comunitat.
 
-### Equip
+## Equip
 
 El grup 041-UPCoders_A està format per 3 estudiants d'enginyería electrònica i un graduat en enginyería química. Ha estat un repte molt interessant ja que cap de nosaltres havia fet una aplicació abans, i hem après eines per a futurs projectes, així com hem determinat quins són els punts crítics en aquest tipus de repte.
