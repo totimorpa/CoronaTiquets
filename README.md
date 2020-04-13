@@ -9,7 +9,7 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 - [Idea](#Idea)
   - [Repte](#Repte)
   - [Solució](#Solució)
-- [Vídeos de demostració](#Videos)
+- [Vídeos de demostració](#Vídeos de demostració)
 - [Producte](#Producte)
 - [Tecnologia](#Tecnologia)
 - [Reptes futurs](#Reptes_Futurs)
@@ -35,7 +35,7 @@ Els botiguers crearàn un perfil per la seva botiga i podràn acceptar els tique
 
 Els botiguers hauràn de promoure que **només es pot accedir al seu local en cas que s'hagi fet ús de l'aplicació**. Pensem que aquesta aplicació pot ser una **bona sol·lució** per permetre obrir botigues locals durant aques periode sense afavorir un aument de contagis.
 
-## Videos
+## Vídeos de demostració
 
 En aquest apartat dirigir-te als videos explicatius sobre l'aplicació:
 |  Vídeo per a usuaris | Vídeo per a comerços |
