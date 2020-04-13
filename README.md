@@ -8,7 +8,7 @@ Hem volgut desenvolupar un projecte qeu ajudi als comerciants de petits comerço
 ## Taula de continguts
 - [Idea](#Idea)
   - [Repte](#Repte)
-  - [Sol·lució](#Sol·lució)
+  - [Solució](#Solució)
 - [Vídeos de demostració](#Vídeos_de_demostració)
 - [Producte](#Producte)
 - [Tecnologia](Tecnologia)
@@ -25,7 +25,7 @@ Un d'aquests problemes és la necessitat de tancament de botigues que ofereixin 
 
 Aquesta problemàtica és especialment greu en el cas dels botiguers de proximitat, que ja comptaven amb dificultats per la competència de les grans superfícies de distribució i comercialització.
 
-### Sol·lució
+### Solució
 
 Al nostre equip vam tenir molt clar des del proncipi del **Hackovid** que el nostre objectiu era **facilitar l'apertura de comerços** locals durant el periode de confinament i el posterior període de recuperació de la economia, sense que això impliqui un aument del risc de contagi a la població.
 
