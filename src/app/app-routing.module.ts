@@ -49,10 +49,16 @@ const routes: Routes = [
   {
     path: 'app',
     loadChildren: () => import('./pages/tabsbotiga/tabsbotiga.module').then( m => m.TabsbotigaPageModule)
-  },  {
+  },
+  {
     path: 'calendari',
     loadChildren: () => import('./pages/calendari/calendari.module').then( m => m.CalendariPageModule)
   },
+  {
+    path: 'suport',
+    loadChildren: () => import('./pages/suport/suport.module').then( m => m.SuportPageModule)
+  },
+
 
 
 

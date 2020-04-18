@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs-page';
-import { SchedulePage } from '../schedule/schedule';
+import { TiquetsUsuariPage } from '../tiquets-usuari/tiquets-usuari';
 
 
 const routes: Routes = [
@@ -10,11 +10,11 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'schedule',
+        path: 'tiquets-usuari',
         children: [
           {
             path: '',
-            component: SchedulePage,
+            component: TiquetsUsuariPage,
           },
           {
             path: 'session/:sessionId',
@@ -23,19 +23,19 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'speakers',
+        path: 'botigues',
         children: [
           {
             path: '',
-            loadChildren: () => import('../speaker-list/speaker-list.module').then(m => m.SpeakerListModule)
+            loadChildren: () => import('../llista-botigues/llista-botigues.module').then(m => m.LlistaBotiguesModule)
           },
           {
             path: 'session/:sessionId',
             loadChildren: () => import('../session-detail/session-detail.module').then(m => m.SessionDetailModule)
           },
           {
-            path: 'speaker-details/:speakerId',
-            loadChildren: () => import('../speaker-detail/speaker-detail.module').then(m => m.SpeakerDetailModule)
+            path: 'detalls-botiga/:speakerI',
+            loadChildren: () => import('../detalls-botiga/detalls-botiga.module').then(m => m.DetallsBotigaModule)
           }
         ]
       },
@@ -51,7 +51,7 @@ const routes: Routes = [
 
       {
         path: '',
-        redirectTo: '/app/tabs/schedule',
+        redirectTo: '/app/tabs/tiquets-usuari',
         pathMatch: 'full'
       }
     ]

@@ -6,13 +6,13 @@ import { ConferenceData } from '../../providers/conference-data';
 import { UserData } from '../../providers/user-data';
 
 @Component({
-  selector: 'page-schedule',
-  templateUrl: 'schedule.html',
-  styleUrls: ['./schedule.scss'],
+  selector: 'page-tiquets-usuari',
+  templateUrl: 'tiquets-usuari.html',
+  styleUrls: ['./tiquets-usuari.scss'],
 })
-export class SchedulePage implements OnInit {
+export class TiquetsUsuariPage implements OnInit {
   // Gets a reference to the list element
-  @ViewChild('scheduleList', { static: true }) scheduleList: IonList;
+  @ViewChild('tiquetsusuariList', { static: true }) tiquetsusuariList: IonList;
 
   ios: boolean;
   dayIndex = 0;
@@ -43,9 +43,9 @@ export class SchedulePage implements OnInit {
   }
 
   updateSchedule() {
-    // Close any open sliding items when the schedule updates
-    if (this.scheduleList) {
-      this.scheduleList.closeSlidingItems();
+    // Close any open sliding items when the tiquetsusuariule updates
+    if (this.tiquetsusuariList) {
+      this.tiquetsusuariList.closeSlidingItems();
     }
 
     this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).subscribe((data: any) => {

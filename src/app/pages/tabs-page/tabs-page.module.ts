@@ -4,10 +4,10 @@ import { IonicModule } from '@ionic/angular';
 import { TabsPage } from './tabs-page';
 import { TabsPageRoutingModule } from './tabs-page-routing.module';
 import { MapModule } from '../map/map.module';
-import { ScheduleModule } from '../schedule/schedule.module';
+import { TiquetsUsuariModule } from '../tiquets-usuari/tiquets-usuari.module';
 import { SessionDetailModule } from '../session-detail/session-detail.module';
-import { SpeakerDetailModule } from '../speaker-detail/speaker-detail.module';
-import { SpeakerListModule } from '../speaker-list/speaker-list.module';
+import { DetallsBotigaModule } from '../detalls-botiga/detalls-botiga.module';
+import { LlistaBotiguesModule } from '../llista-botigues/llista-botigues.module';
 import { BotigaPageModule } from '../botiga/botiga.module';
 
 @NgModule({
@@ -15,10 +15,10 @@ import { BotigaPageModule } from '../botiga/botiga.module';
     CommonModule,
     IonicModule,
     MapModule,
-    ScheduleModule,
+    TiquetsUsuariModule,
     SessionDetailModule,
-    SpeakerDetailModule,
-    SpeakerListModule,
+    DetallsBotigaModule,
+    LlistaBotiguesModule,
     TabsPageRoutingModule,
     BotigaPageModule
   ],

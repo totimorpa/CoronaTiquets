@@ -14,7 +14,7 @@
       <ion-item *ngFor="let session of group.sessions">
         <ion-icon name="pricetag-outline"></ion-icon>
 
-        <ion-item routerLink="/app/tabs/schedule/session/{{session.id}}">
+        <ion-item>
           <ion-label>
 
             <h3>{{session.name}}</h3>
@@ -26,8 +26,8 @@
             </p>
           </ion-label>
         </ion-item>
-        <ion-button slot=end>
-        <ion-icon name='calendar' ></ion-icon>
+        <ion-button fill=clear slot=end>
+        <ion-icon  name="trash-outline" color=danger></ion-icon>
         </ion-button> 
  
       </ion-item>

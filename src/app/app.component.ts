@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   appPages = [
     {
       title: 'Botigues',
-      url: '/app/tabs/speakers',
+      url: '/app/tabs/botigues',
       icon: 'search'
     },
     {
@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Tiquets',
-      url: '/app/tabs/schedule',
+      url: '/app/tabs/tiquets-usuari',
       icon: 'wallet'
     }
   ];
@@ -112,13 +112,21 @@ export class AppComponent implements OnInit {
 
   logout() {
     this.userData.logout().then(() => {
-      return this.router.navigateByUrl('/app/tabs/speakers');
+      return this.router.navigateByUrl('/login');
     });
+  }
+
+  openLogin() {
+    this.menu.enable(false);
+    this.router.navigateByUrl('/login');
   }
 
   openTutorial() {
     this.menu.enable(false);
     this.storage.set('ion_did_tutorial', false);
     this.router.navigateByUrl('/tutorial');
+  }
+  suport() {
+    this.router.navigateByUrl('/suport')
   }
 }

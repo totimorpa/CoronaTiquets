@@ -57,7 +57,7 @@
           </ion-list-header>
 
           <ion-menu-toggle autoHide="false">
-            <ion-item routerLink="/login" routerLinkActive="active" routerDirection="root" detail="false">
+            <ion-item (click)="openLogin()">
               <ion-icon slot="start" name="log-in"></ion-icon>
               <ion-label>
                 Accedir
@@ -75,15 +75,17 @@
           </ion-menu-toggle>
 
         </ion-list>
-
         <ion-list lines="none">
-          <ion-list-header>
-            Tutorial Benvinguda
-          </ion-list-header>
           <ion-menu-toggle autoHide="false">
             <ion-item button (click)="openTutorial()" detail="false">
-              <ion-icon slot="start" name="hammer"></ion-icon>
+              <ion-icon slot=start name="information-outline"></ion-icon>
               <ion-label>Mostrar Tutorial</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          <ion-menu-toggle autoHide="false">
+            <ion-item button (click)="suport()" detail="false">
+              <ion-icon slot=start name="help-outline"></ion-icon>
+              <ion-label>Suport</ion-label>
             </ion-item>
           </ion-menu-toggle>
         </ion-list>

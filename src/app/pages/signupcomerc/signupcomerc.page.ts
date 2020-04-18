@@ -3,6 +3,7 @@ import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 
 import {HttpClient} from '@angular/common/http';
+import { MenuController } from '@ionic/angular';
 
 
 
@@ -14,7 +15,8 @@ import {HttpClient} from '@angular/common/http';
 export class SignupcomercPage implements OnInit {
   constructor(
     public router: Router,
-    private http: HttpClient
+    private http: HttpClient,
+    private menu: MenuController
   ) {}
 
   submitForm(formData) : void{
@@ -27,6 +29,7 @@ export class SignupcomercPage implements OnInit {
   }
   onSignup() {
       this.router.navigateByUrl('/app/tabsbotiga/botiga');
+      this.menu.enable(true)
   }
   ngOnInit() {
   }

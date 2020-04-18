@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { ConferenceData } from '../../providers/conference-data';
 
 @Component({
-  selector: 'page-speaker-list',
-  templateUrl: 'speaker-list.html',
-  styleUrls: ['./speaker-list.scss'],
+  selector: 'page-llista-botigues',
+  templateUrl: 'llista-botigues.html',
+  styleUrls: ['./llista-botigues.scss'],
 })
-export class SpeakerListPage {
+export class LlistaBotiguesPage {
   speakers: any[] = [];
 
   constructor(public confData: ConferenceData) {}

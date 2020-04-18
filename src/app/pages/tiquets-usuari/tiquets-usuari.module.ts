@@ -3,18 +3,18 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { SchedulePage } from './schedule';
-import { SchedulePageRoutingModule } from './schedule-routing.module';
+import { TiquetsUsuariPage } from './tiquets-usuari';
+import { TiquetsUsuariPageRoutingModule } from './tiquets-usuari-routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SchedulePageRoutingModule
+    TiquetsUsuariPageRoutingModule
   ],
   declarations: [
-    SchedulePage
+    TiquetsUsuariPage
   ],
 })
-export class ScheduleModule { }
+export class TiquetsUsuariModule { }

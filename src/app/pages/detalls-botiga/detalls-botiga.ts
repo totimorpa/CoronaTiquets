@@ -3,13 +3,17 @@ import { ActivatedRoute } from '@angular/router';
 import { ConferenceData } from '../../providers/conference-data';
 import { ActionSheetController } from '@ionic/angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'page-speaker-detail',
-  templateUrl: 'speaker-detail.html',
-  styleUrls: ['./speaker-detail.scss'],
+  selector: 'page-detalls-botiga',
+  templateUrl: 'detalls-botiga.html',
+  styleUrls: ['./detalls-botiga.scss'],
 })
-export class SpeakerDetailPage {
+export class DetallsBotigaPage {
+  public href: string = "";
+  public list=[];
+  public id="";
   speaker: any;
 
   constructor(
@@ -18,11 +22,17 @@ export class SpeakerDetailPage {
     public actionSheetCtrl: ActionSheetController,
     public confData: ConferenceData,
     public inAppBrowser: InAppBrowser,
+    private router: Router
   ) {}
-
+  
+  ngOnInit() {
+    this.href = this.router.url;
+    this.list=this.href.split("/");
+    this.id=this.list[this.list.length-1];
+}
   ionViewWillEnter() {
     this.dataProvider.load().subscribe((data: any) => {
-      const speakerId = this.route.snapshot.paramMap.get('speakerId');
+      const speakerId = this.id;
       if (data && data.speakers) {
         for (const speaker of data.speakers) {
           if (speaker && speaker.id === speakerId) {

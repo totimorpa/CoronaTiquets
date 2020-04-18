@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { MenuController } from '@ionic/angular';
 
 
 @Component({
@@ -11,13 +12,15 @@ export class QuiEtsPage implements OnInit {
 
   constructor(
     public router: Router,
+    private menu: MenuController
   ) {}
 
 
   ngOnInit() {
   }
   user() {
-    this.router.navigateByUrl('/app/tabs/schedule');
+    this.router.navigateByUrl('/app/tabs/botigues');
+    this.menu.enable(true)
   }
   shop() {
     this.router.navigateByUrl('/signupcomerc');
